@@ -1,0 +1,25 @@
+{
+    "baseUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons",
+    "Technologies": [
+      {
+        "name": "React",
+        "icon": "react.svg"
+      },
+      {
+        "name": "Next.js",
+        "icon": "nextdotjs.svg"
+      },
+      {
+        "name": "Node.js",
+        "icon": "nodedotjs.svg"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "typescript.svg"
+      },
+      {
+        "name": "Php",
+        "icon": "php.svg"
+      }
+    ]
+  }
