@@ -39,7 +39,7 @@ const Projects = () => {
               })}
             </div>
             
-            <a href={`${Projets.baseUrl}/${projet.repository}`} target="_blank" rel="noopener noreferrer" className={styles.link}>
+            <a href={projet.link} className={styles.link}>
               Voir le projet →
             </a>
           </div>

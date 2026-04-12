@@ -1,27 +1,35 @@
 {
   "baseImageUrl": "/images/projets",
-  "baseUrl": "https://github.com",
   "Projets": [
     {
+      "slug": "app-e-commerce",
       "title": "App E-commerce",
       "description": "Application de vente en ligne avec panier",
       "image": "ecommerce.png",
       "technologies": [ "Node.js", "Php", "TypeScript"],
-      "repository": "username/ecommerce"
+      "link": "/projets/app-e-commerce",
+      "link_github": "https://github.com/nhat86/ecommerce",
+      "link_demo": "https://ecommerce-demo.com"
     },
     {
+      "slug": "blog-technique",
       "title": "Blog Technique",
       "description": "Blog personnel sur le développement web",
       "image": "blog.png",
       "technologies": ["Next.js", "TypeScript"],
-      "repository": "username/blog-technique"
+      "link": "/projets/blog-technique",
+      "link_github": "https://github.com/nhat86/blog-technique",
+      "link_demo": "https://blog-technique-demo.com"
     },
     {
+      "slug": "portfolio-personnel",
       "title": "Portfolio Personnel",
       "description": "Site web moderne construit avec Next.js",
       "image": "portfolio.png",
       "technologies": ["Next.js", "React"],
-      "repository": "username/mon-portfolio"
+      "link": "/projets/portfolio-personnel",
+      "link_github": "https://github.com/nhat86/mon-portfolio",
+      "link_demo": "https://portfolio-demo.com"
     }
   ]
 }
