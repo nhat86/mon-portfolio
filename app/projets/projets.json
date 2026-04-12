@@ -1,0 +1,27 @@
+{
+  "baseImageUrl": "/images/projets",
+  "baseUrl": "https://github.com",
+  "Projets": [
+    {
+      "title": "App E-commerce",
+      "description": "Application de vente en ligne avec panier",
+      "image": "ecommerce.png",
+      "technologies": [ "Node.js", "Php", "TypeScript"],
+      "repository": "username/ecommerce"
+    },
+    {
+      "title": "Blog Technique",
+      "description": "Blog personnel sur le développement web",
+      "image": "blog.png",
+      "technologies": ["Next.js", "TypeScript"],
+      "repository": "username/blog-technique"
+    },
+    {
+      "title": "Portfolio Personnel",
+      "description": "Site web moderne construit avec Next.js",
+      "image": "portfolio.png",
+      "technologies": ["Next.js", "React"],
+      "repository": "username/mon-portfolio"
+    }
+  ]
+}
