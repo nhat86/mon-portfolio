@@ -11,7 +11,7 @@ export default function ContactForm() {
     const [status, setStatus] = useState('')
     const [errorMsg, setErrorMsg] = useState('')
 
-    const handleChange = (e) => {
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const { name, value } = e.target
         setFormData(prev => ({
             ...prev,
@@ -19,7 +19,7 @@ export default function ContactForm() {
         }))
     }
 
-    const handleSubmit = async (e) => {
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault()
         setStatus('sending')
         setErrorMsg('')
@@ -40,7 +40,7 @@ export default function ContactForm() {
             setTimeout(() => setStatus(''), 5000)
         } catch (err) {
             setStatus('error')
-            setErrorMsg(err.message)
+            setErrorMsg(err instanceof Error ? err.message : 'Erreur inconnue')
         }
     }
 
@@ -84,7 +84,7 @@ export default function ContactForm() {
                 <textarea
                     id="message"
                     name="message"
-                    rows="5"
+                    rows={5}
                     value={formData.message}
                     onChange={handleChange}
                     required
