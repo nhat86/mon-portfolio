@@ -161,8 +161,8 @@ export default function FormationsPage() {
       : formations.filter((f) => f.categories.includes(activeFilter));
 
   return (
-    <main className={styles.page}>
-      <h1 className={styles.sectionLabel}>Formations &amp; Diplômes</h1>
+    <main className={styles.container}>
+      <h1 className="title">Formations &amp; Diplômes</h1>
 
       <nav className={styles.filterBar} aria-label="Filtrer les formations">
         {FILTERS.map((key) => (

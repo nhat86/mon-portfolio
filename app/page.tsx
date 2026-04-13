@@ -1,6 +1,7 @@
 import Techs from "@/components/Techs/Techs";
 import Technologies from "@/components/Techs/Techs.json";
 import styles from "./page.module.css";
+import Link from 'next/link'
 import "./globals.css";
 export default function Home() {
   return (
@@ -18,12 +19,12 @@ export default function Home() {
             J’utilise <span className={styles.highlight}>l’intelligence artificielle</span> pour rendre les interfaces plus <span className={styles.highlight}>intelligentes</span> et <span className={styles.highlight}>interactives</span>.
           </p>
           <div className={styles.heroButtons}>
-            <a href="/projects" className={`${styles.btn} ${styles.btnPrimary}`}>
+            <Link href="/projects" className={`${styles.btn} ${styles.btnPrimary}`}>
               Voir mes projets
-            </a>
-            <a href="/contact" className={`${styles.btn} ${styles.btnSecondary}`}>
+            </Link>
+            <Link href="/contact" className={`${styles.btn} ${styles.btnSecondary}`}>
               Me contacter
-            </a>
+            </Link>
           </div>
           <div className={styles.tagsContainer}>
             {Technologies.Technologies.map((tech, index) => (

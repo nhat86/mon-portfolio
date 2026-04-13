@@ -3,11 +3,31 @@ import Image from 'next/image'
 import Techs from '@/components/Techs/Techs'
 import Technologies from '@/components/Techs/Techs.json'
 import Projects from '../projects.json'
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params
+    const project = Projects.Projects.find(p => p.slug === slug)
+
+    if (!project) {
+        return {
+            title: 'Projet non trouvé',
+        }
+    }
+
+    return {
+        title: `${project.title} | Portfolio`,
+        description: project.description,
+        openGraph: {
+            title: project.title,
+            description: project.description,
+            images: [project.image],
+        },
+    }
+}
 
 const ProjectDetail = async ({ params }: { params: Promise<{ slug: string }> }) => {
   const { slug } = await params
   // Cherche le projet dans le tableau par son slug
-  const project = Projects.Projects.find((p: any) => p.slug === slug)
+  const project = Projects.Projects.find(p => p.slug === slug)
 
   // Si le projet n'existe pas, afficher un message
   if (!project) {
@@ -34,6 +54,7 @@ const ProjectDetail = async ({ params }: { params: Promise<{ slug: string }> }) 
                     width={600}
                     height={400}
                     className={styles.imagePlaceholder}
+                    priority={true}
                   />
               </div>
 

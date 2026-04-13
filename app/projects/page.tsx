@@ -3,6 +3,10 @@ import Techs from '@/components/Techs/Techs';
 import Technologies from '@/components/Techs/Techs.json';
 import styles from './page.module.css';
 import ProjectsData from './projects.json';
+export const metadata = {
+  title: 'Mes Projets | Portfolio',
+  description: 'Découvrez mes projets de développement web : applications React, sites Next.js et plus encore.',
+}
 const Projects = () => {
   return (
     <div className={styles.container}>
