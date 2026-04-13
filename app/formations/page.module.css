@@ -24,27 +24,26 @@
 }
 
 .filterBtn {
-  font-size: 0.8125rem;
-  padding: 5px 14px;
+  font-size: 0.9rem;
+  padding: 0.4rem 1rem;
   border-radius: 999px;
-  border: 0.5px solid #d1d5db;
+  border: 1px solid #e0e0e0;
   background: transparent;
-  color: #6b7280;
   cursor: pointer;
-  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  transition: all 0.2s;
   display: flex;
   align-items: center;
   gap: 6px;
 }
 
 .filterBtn:hover {
-  background: #f3f4f6;
+  border-color: #555;
 }
 
 .filterBtnActive {
-  border-color: #374151;
-  color: #111827;
-  font-weight: 500;
+  background: #000;
+  color: #fff;
+  border-color: #000;
 }
 
 .countChip {

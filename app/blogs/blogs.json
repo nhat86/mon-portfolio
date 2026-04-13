@@ -1,0 +1,13 @@
+{
+  "blogs": [
+    {
+      "slug": "mon-premier-article",
+      "title": "Mon premier article",
+      "date": "2026-04-13",
+      "description": "Une courte description de l'article.",
+      "image": "/images/blogs/article1.png",
+      "tags": ["Next.js", "React"],
+      "content": "Contenu complet de l'article en HTML ou markdown."
+    }
+  ]
+}
