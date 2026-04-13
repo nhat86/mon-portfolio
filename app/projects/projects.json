@@ -1,13 +1,13 @@
 {
   "baseImageUrl": "/images/projets",
-  "Projets": [
+  "Projects": [
     {
       "slug": "app-phapshopping",
       "title": "App E-commerce PhapShopping",
       "description": "Service d'achat en France pour les clients vietnamiens — commande, paiement et livraison de produits français.",
       "image": "ecommerce.png",
-      "technologies": [ "Node.js", "IA", "TypeScript"],
-      "link": "/projets/app-phapshopping",
+      "technologies": [ "Node.js", "TypeScript"],
+      "link": "/projects/app-phapshopping",
       "link_github": "https://github.com/nhat86/phapshopping4",
       "link_demo": "https://phapshopping.vercel.app/"
     },
@@ -16,9 +16,9 @@
       "title": "App E-commerce Cadeau du Vietnam",
       "description": "Boutique en ligne de produits vietnamiens livrés en France — alimentation, cosmétiques et articles traditionnels.",
       "image": "blog.png",
-      "technologies": ["Node.js", "PHP", "TypeScript"],
+      "technologies": ["Node.js", "Php", "TypeScript"],
       "features": [],
-      "link": "/projets/app-cadeau-du-vietnam",
+      "link": "/projects/app-cadeau-du-vietnam",
       "link_github": "https://github.com/nhat86/cadeauduvietnam",
       "link_demo": ""
     },
@@ -28,7 +28,7 @@
       "description": "Site web moderne construit avec Next.js",
       "image": "portfolio.png",
       "technologies": ["Next.js", "React"],
-      "link": "/projets/portfolio-personnel",
+      "link": "/projects/portfolio-personnel",
       "link_github": "https://github.com/nhat86/mon-portfolio",
       "link_demo": "https://portfolio-demo.com"
     }

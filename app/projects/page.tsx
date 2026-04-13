@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Techs from '@/components/Techs/Techs';
 import Technologies from '@/components/Techs/Techs.json';
 import styles from './page.module.css';
-import Projets from './projets.json';
+import ProjectsData from './projects.json';
 const Projects = () => {
   return (
     <div className={styles.container}>
@@ -12,11 +12,11 @@ const Projects = () => {
       </p>
       
       <div className={styles.grid}>
-        {Projets.Projets.map((projet, index) => (
+        {ProjectsData.Projects.map((projet, index) => (
           <div key={index} className={styles.card}>
             <div className={styles.imageWrapper}>
               <Image 
-                src={`${Projets.baseImageUrl}/${projet.image}`} 
+                src={`${ProjectsData.baseImageUrl}/${projet.image}`} 
                 alt={projet.title}
                 width={400}
                 height={300}

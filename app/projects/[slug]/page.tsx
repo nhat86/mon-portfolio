@@ -2,12 +2,12 @@ import styles from './page.module.css'
 import Image from 'next/image'
 import Techs from '@/components/Techs/Techs'
 import Technologies from '@/components/Techs/Techs.json'
-import projects from '../projets.json'
+import Projects from '../projects.json'
 
 const ProjectDetail = async ({ params }: { params: Promise<{ slug: string }> }) => {
   const { slug } = await params
   // Cherche le projet dans le tableau par son slug
-  const project = projects.Projets.find((p: any) => p.slug === slug)
+  const project = Projects.Projects.find((p: any) => p.slug === slug)
 
   // Si le projet n'existe pas, afficher un message
   if (!project) {
@@ -29,7 +29,7 @@ const ProjectDetail = async ({ params }: { params: Promise<{ slug: string }> }) 
           <div className={styles.content}>
               <div className={styles.imageWrapper}>
                   <Image
-                    src={`${projects.baseImageUrl}/${project.image}`}
+                    src={`${Projects.baseImageUrl}/${project.image}`}
                     alt={project.title}
                     width={600}
                     height={400}
@@ -77,3 +77,9 @@ const ProjectDetail = async ({ params }: { params: Promise<{ slug: string }> }) 
 }
 
 export default ProjectDetail
+
+export function generateStaticParams() {
+  return Projects.Projects.map((project) => ({
+    slug: project.slug,
+  }));
+}

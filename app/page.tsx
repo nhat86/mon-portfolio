@@ -18,10 +18,10 @@ export default function Home() {
             J’utilise <span className={styles.highlight}>l’intelligence artificielle</span> pour rendre les interfaces plus <span className={styles.highlight}>intelligentes</span> et <span className={styles.highlight}>interactives</span>.
           </p>
           <div className={styles.heroButtons}>
-            <a href="#projects" className={`${styles.btn} ${styles.btnPrimary}`}>
+            <a href="/projects" className={`${styles.btn} ${styles.btnPrimary}`}>
               Voir mes projets
             </a>
-            <a href="#contact" className={`${styles.btn} ${styles.btnSecondary}`}>
+            <a href="/contact" className={`${styles.btn} ${styles.btnSecondary}`}>
               Me contacter
             </a>
           </div>
