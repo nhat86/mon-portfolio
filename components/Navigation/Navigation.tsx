@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import styles from './Navigation.module.css'
 
-export default function Navigation() {
+const Navigation = () => {
  return (
    <nav className={styles.nav}>
      <div className={styles.container}>
@@ -21,6 +21,11 @@ export default function Navigation() {
            </Link>
          </li>
          <li>
+           <Link href="/formations" className={styles.link}>
+             Formations
+           </Link>
+         </li>
+         <li>
            <Link href="/a-propos" className={styles.link}>
              À propos
            </Link>
@@ -35,3 +40,4 @@ export default function Navigation() {
    </nav>
  )
 }
+export default Navigation;

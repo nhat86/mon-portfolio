@@ -1,0 +1,250 @@
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+/* ── Header ─────────────────────────────────── */
+
+.sectionLabel {
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-secondary, #6b7280);
+  margin: 0 0 1.25rem;
+}
+
+/* ── Filter bar ──────────────────────────────── */
+
+.filterBar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 1.75rem;
+}
+
+.filterBtn {
+  font-size: 0.8125rem;
+  padding: 5px 14px;
+  border-radius: 999px;
+  border: 0.5px solid #d1d5db;
+  background: transparent;
+  color: #6b7280;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.filterBtn:hover {
+  background: #f3f4f6;
+}
+
+.filterBtnActive {
+  border-color: #374151;
+  color: #111827;
+  font-weight: 500;
+}
+
+.countChip {
+  font-size: 0.6875rem;
+  background: #f3f4f6;
+  border: 0.5px solid #e5e7eb;
+  border-radius: 999px;
+  padding: 1px 7px;
+  color: #6b7280;
+}
+
+/* ── Grid ────────────────────────────────────── */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+/* ── Card ────────────────────────────────────── */
+
+.card {
+  background: #ffffff;
+  border: 0.5px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  transition: border-color 0.2s;
+}
+
+.card:hover {
+  border-color: #9ca3af;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.iconCircle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* ── Badge ───────────────────────────────────── */
+
+.badge {
+  font-size: 0.6875rem;
+  font-weight: 500;
+  padding: 3px 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+}
+
+.badgeCertified {
+  background: #eaf3de;
+  color: #3b6d11;
+}
+
+.badgeProgress {
+  background: #faeeda;
+  color: #854f0b;
+}
+
+.badgeIncomplete {
+  background: #f1efe8;
+  color: #5f5e5a;
+}
+
+/* ── Card body ───────────────────────────────── */
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.cardTitle {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: #111827;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.cardOrg {
+  font-size: 0.8125rem;
+  color: #6b7280;
+  margin: 0;
+}
+
+/* ── Tags ────────────────────────────────────── */
+
+.tagsRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag {
+  font-size: 0.6875rem;
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: #f9fafb;
+  color: #6b7280;
+  border: 0.5px solid #e5e7eb;
+}
+
+/* ── Divider & footer ────────────────────────── */
+
+.divider {
+  border: none;
+  border-top: 0.5px solid #e5e7eb;
+  margin: 0;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.meta {
+  font-size: 0.75rem;
+  color: #9ca3af;
+}
+
+/* ── Dark mode ───────────────────────────────── */
+
+@media (prefers-color-scheme: dark) {
+  .card {
+    background: #1f2937;
+    border-color: #374151;
+  }
+
+  .card:hover {
+    border-color: #6b7280;
+  }
+
+  .cardTitle {
+    color: #f9fafb;
+  }
+
+  .cardOrg {
+    color: #9ca3af;
+  }
+
+  .tag {
+    background: #111827;
+    color: #9ca3af;
+    border-color: #374151;
+  }
+
+  .divider {
+    border-color: #374151;
+  }
+
+  .filterBtn {
+    border-color: #374151;
+    color: #9ca3af;
+  }
+
+  .filterBtn:hover {
+    background: #374151;
+  }
+
+  .filterBtnActive {
+    border-color: #d1d5db;
+    color: #f9fafb;
+  }
+
+  .countChip {
+    background: #374151;
+    border-color: #4b5563;
+    color: #9ca3af;
+  }
+
+  .sectionLabel {
+    color: #9ca3af;
+  }
+}
+
+/* ── Responsive ──────────────────────────────── */
+
+@media (max-width: 480px) {
+  .page {
+    padding: 2rem 1rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

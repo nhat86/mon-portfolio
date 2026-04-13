@@ -1,0 +1,81 @@
+[
+  {
+    "id": "dev-ia",
+    "title": "Développeur IA",
+    "organization": "OpenClassrooms",
+    "categories": ["IA","dev"],
+    "status": "in-progress",
+    "tags": ["React", "Python", "Machine Learning", "LLM", "SQL"],
+    "year": 2027,
+    "period": "En cours – Février 2027",
+    "progress": 30,
+    "iconColor": "#E1F5EE",
+    "iconStroke": "#0F6E56",
+    "iconType": "edit"
+  },
+  {
+    "id": "backend-cefim",
+    "title": "Développer la partie back-end",
+    "organization": "CEFIM · Orléans",
+    "categories": ["dev"],
+    "status": "incomplete",
+    "tags": ["PHP", "MySQL", "Back-end"],
+    "year": 2022,
+    "period": "Avril 2022 – Juin 2022",
+    "iconColor": "#E6F1FB",
+    "iconStroke": "#185FA5",
+    "iconType": "code"
+  },
+  {
+    "id": "dwwm-via",
+    "title": "Développeur Web et Web Mobile",
+    "organization": "VIA Formation · Orléans",
+    "categories": ["dev"],
+    "status": "certified",
+    "tags": ["HTML", "CSS", "JavaScript", "PHP"],
+    "year": 2022,
+    "period": "Mai 2021 – Janvier 2022",
+    "iconColor": "#EAF3DE",
+    "iconStroke": "#3B6D11",
+    "iconType": "monitor"
+  },
+  {
+    "id": "doctorat-orleans",
+    "title": "Doctorat en Mathématiques",
+    "organization": "Université d'Orléans",
+    "categories": ["maths"],
+    "status": "certified",
+    "tags": ["Mathématiques", "Recherche", "Doctorat"],
+    "year": 2018,
+    "period": "Octobre 2015 – Mai 2018",
+    "iconColor": "#FBEAF0",
+    "iconStroke": "#993556",
+    "iconType": "palette"
+  },
+  {
+    "id": "master-paris13",
+    "title": "Master Mathématiques-Informatique",
+    "organization": "Université Paris 13 · Institut Galilée",
+    "categories": ["maths"],
+    "status": "certified",
+    "tags": ["Algorithmique", "Modélisation", "Informatique"],
+    "year": 2014,
+    "period": "2013 – Juillet 2014",
+    "iconColor": "#EEEDFE",
+    "iconStroke": "#534AB7",
+    "iconType": "layers"
+  },
+  {
+    "id": "master-vietnam",
+    "title": "Master of Science en Mathématiques",
+    "organization": "Ho Chi Minh City University of Education",
+    "categories": ["maths"],
+    "status": "certified",
+    "tags": ["Mathématiques", "Recherche"],
+    "year": 2013,
+    "period": "2012– Mars 2013",
+    "iconColor": "#FAECE7",
+    "iconStroke": "#993C1D",
+    "iconType": "chart"
+  }
+]
