@@ -2,24 +2,25 @@
   "baseImageUrl": "/images/projets",
   "Projets": [
     {
-      "slug": "app-e-commerce",
-      "title": "App E-commerce",
-      "description": "Application de vente en ligne avec panier",
+      "slug": "app-phapshopping",
+      "title": "App E-commerce PhapShopping",
+      "description": "Service d'achat en France pour les clients vietnamiens — commande, paiement et livraison de produits français.",
       "image": "ecommerce.png",
-      "technologies": [ "Node.js", "Php", "TypeScript"],
-      "link": "/projets/app-e-commerce",
-      "link_github": "https://github.com/nhat86/ecommerce",
-      "link_demo": "https://ecommerce-demo.com"
+      "technologies": [ "Node.js", "IA", "TypeScript"],
+      "link": "/projets/app-phapshopping",
+      "link_github": "https://github.com/nhat86/phapshopping4",
+      "link_demo": "https://phapshopping.vercel.app/"
     },
     {
-      "slug": "blog-technique",
-      "title": "Blog Technique",
-      "description": "Blog personnel sur le développement web",
+      "slug": "app-cadeau-du-vietnam",
+      "title": "App E-commerce Cadeau du Vietnam",
+      "description": "Boutique en ligne de produits vietnamiens livrés en France — alimentation, cosmétiques et articles traditionnels.",
       "image": "blog.png",
-      "technologies": ["Next.js", "TypeScript"],
-      "link": "/projets/blog-technique",
-      "link_github": "https://github.com/nhat86/blog-technique",
-      "link_demo": "https://blog-technique-demo.com"
+      "technologies": ["Node.js", "PHP", "TypeScript"],
+      "features": [],
+      "link": "/projets/app-cadeau-du-vietnam",
+      "link_github": "https://github.com/nhat86/cadeauduvietnam",
+      "link_demo": ""
     },
     {
       "slug": "portfolio-personnel",
