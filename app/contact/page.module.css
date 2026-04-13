@@ -1,0 +1,51 @@
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem; 
+}
+.contactWrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3rem;
+}
+
+.contactInfo {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 12px;
+    height: fit-content;
+}
+
+.contactInfo h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #667eea;
+}
+
+.infoItem {
+    margin-bottom: 1.25rem;
+}
+
+.infoItem strong {
+    display: block;
+    margin-bottom: 0.25rem;
+    color: #333;
+}
+
+.infoItem a {
+    color: #667eea;
+    text-decoration: none;
+}
+
+.infoItem a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .contactWrapper {
+        grid-template-columns: 1fr;
+    }
+}
