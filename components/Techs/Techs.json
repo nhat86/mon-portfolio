@@ -2,6 +2,18 @@
     "baseUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons",
     "Technologies": [
       {
+        "name": "HTML",
+        "icon": "html5.svg"
+      },
+      {
+        "name": "CSS",
+        "icon": "css3.svg"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript.svg"
+      },
+      {
         "name": "React",
         "icon": "react.svg"
       },
@@ -20,6 +32,22 @@
       {
         "name": "Php",
         "icon": "php.svg"
+      },
+      {
+        "name": "Python",
+        "icon": "python.svg"
+      },
+      {
+        "name": "Jupyter Notebook",
+        "icon": "jupyter.svg"
+      },
+      {
+        "name": "NumPy",
+        "icon": "numpy.svg"
+      },
+      {
+        "name": "Matplotlib",
+        "icon": "chartdotjs.svg"
       }
     ]
   }

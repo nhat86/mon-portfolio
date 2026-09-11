@@ -1,6 +1,30 @@
 {
   "baseImageUrl": "/images/projets",
   "Projects": [
+    { 
+      "slug": "printit-carousel",
+      "title": "Carrousel dynamique Print It",
+      "description": "Projet OpenClassrooms consistant à rendre un site vitrine plus interactif en développant un carrousel d'images en JavaScript avec navigation, indicateurs et défilement dynamique.",
+      "image": "printit.png",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "link": "/projects/printit-carousel",
+      "link_github": "https://github.com/nhat86/openclassroom-projet3_javascript-ex_printit",
+      "link_demo": "https://nhat86.github.io/openclassroom-projet3_javascript-ex_printit/"
+    },
+    {
+      "slug": "fashion-trend-intelligence",
+      "title": "Fashion Trend Intelligence",
+      "description": "Projet de Computer Vision en Python pour la segmentation automatique de vêtements à partir d'images.",
+      "image": "fashion-trend-intelligence.png",
+      "technologies": [
+        "Python",
+        "Jupyter Notebook",
+        "NumPy",
+        "Matplotlib"
+      ],
+      "link": "/projects/fashion-trend-intelligence",
+      "link_github": "https://github.com/ton-compte/fashion-trend-intelligence"
+    },
     {
       "slug": "app-phapshopping",
       "title": "App E-commerce PhapShopping",
