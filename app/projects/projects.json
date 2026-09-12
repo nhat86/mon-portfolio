@@ -15,6 +15,7 @@
       ],
       "link": "/projects/fashion-trend-intelligence",
       "link_github": "https://github.com/ton-compte/fashion-trend-intelligence",
+      "link_demo": "https://fashion-trend-intelligence.streamlit.app",
       "longDescription": "Projet réalisé pour ModeTrends dans le cadre du système 'Fashion Trend Intelligence'. L'objectif était d'évaluer la faisabilité d'une segmentation automatique des vêtements sur des images de réseaux sociaux. J'ai testé le modèle SegFormer-clothes via les endpoints serverless de Hugging Face sur un jeu de données annoté, puis analysé et visualisé les résultats avec Python, NumPy et Matplotlib."
     },
     {
