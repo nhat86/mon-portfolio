@@ -48,6 +48,22 @@
       {
         "name": "Matplotlib",
         "icon": "chartdotjs.svg"
+      },
+      {
+        "name": "Streamlit",
+        "icon": "streamlit.svg"
+      },
+      {
+        "name": "Pandas",
+        "icon": "pandas.svg"
+      },
+      {
+        "name": "scikit-learn",
+        "icon": "scikitlearn.svg"
+      },
+      {
+        "name": "Hugging Face",
+        "icon": "huggingface.svg"
       }
     ]
   }

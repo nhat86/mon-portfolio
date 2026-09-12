@@ -1,16 +1,6 @@
 {
   "baseImageUrl": "/images/projets",
   "Projects": [
-    { 
-      "slug": "printit-carousel",
-      "title": "Carrousel dynamique Print It",
-      "description": "Projet OpenClassrooms consistant à rendre un site vitrine plus interactif en développant un carrousel d'images en JavaScript avec navigation, indicateurs et défilement dynamique.",
-      "image": "printit.png",
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "link": "/projects/printit-carousel",
-      "link_github": "https://github.com/nhat86/openclassroom-projet3_javascript-ex_printit",
-      "link_demo": "https://nhat86.github.io/openclassroom-projet3_javascript-ex_printit/"
-    },
     {
       "slug": "fashion-trend-intelligence",
       "title": "Fashion Trend Intelligence",
@@ -19,11 +9,13 @@
       "technologies": [
         "Python",
         "Jupyter Notebook",
+        "Hugging Face",
         "NumPy",
         "Matplotlib"
       ],
       "link": "/projects/fashion-trend-intelligence",
-      "link_github": "https://github.com/ton-compte/fashion-trend-intelligence"
+      "link_github": "https://github.com/ton-compte/fashion-trend-intelligence",
+      "longDescription": "Projet réalisé pour ModeTrends dans le cadre du système 'Fashion Trend Intelligence'. L'objectif était d'évaluer la faisabilité d'une segmentation automatique des vêtements sur des images de réseaux sociaux. J'ai testé le modèle SegFormer-clothes via les endpoints serverless de Hugging Face sur un jeu de données annoté, puis analysé et visualisé les résultats avec Python, NumPy et Matplotlib."
     },
     {
       "slug": "app-phapshopping",
@@ -33,7 +25,8 @@
       "technologies": [ "Node.js", "TypeScript"],
       "link": "/projects/app-phapshopping",
       "link_github": "https://github.com/nhat86/phapshopping4",
-      "link_demo": "https://phapshopping.vercel.app/"
+      "link_demo": "https://phapshopping.vercel.app/",
+      "longDescription": "PhapShopping est une application e-commerce full-stack facilitant l'achat de produits français pour des clients vietnamiens. Le projet inclut gestion des commandes, paiement et suivi des livraisons."
     },
     {
       "slug": "app-cadeau-du-vietnam",
@@ -44,17 +37,19 @@
       "features": [],
       "link": "/projects/app-cadeau-du-vietnam",
       "link_github": "https://github.com/nhat86/cadeauduvietnam",
-      "link_demo": ""
+      "link_demo": "",
+      "longDescription": "Boutique en ligne dédiée aux produits vietnamiens en France. J'ai travaillé sur l'intégration du catalogue, du panier et du processus de commande."
     },
     {
-      "slug": "portfolio-personnel",
-      "title": "Portfolio Personnel",
-      "description": "Site web moderne construit avec Next.js",
-      "image": "portfolio.png",
-      "technologies": ["Next.js", "React"],
-      "link": "/projects/portfolio-personnel",
-      "link_github": "https://github.com/nhat86/mon-portfolio",
-      "link_demo": "https://portfolio-demo.com"
+      "slug": "hr-analytics",
+      "title": "HR Analytics",
+      "description": "Application de Machine Learning pour prédire le turnover des employés, avec un modèle de classification entraîné, interface Streamlit interactive et outils d'explicabilité (SHAP, permutation importance).",
+      "image": "hr-analytics.svg",
+      "technologies": ["Python", "Streamlit", "Pandas", "scikit-learn", "NumPy", "Matplotlib"],
+      "link": "/projects/hr-analytics",
+      "link_github": "https://github.com/nhat86/openclassroom_projet10_machine_learning",
+      "link_demo": "https://vtmnhat-hr-analytics.streamlit.app/",
+      "longDescription": "Application de Machine Learning déployée avec Streamlit pour prédire le turnover des employés. Le projet inclut un pipeline de classification, une interface interactive et des outils d'explicabilité avec SHAP et permutation importance."
     }
   ]
 }

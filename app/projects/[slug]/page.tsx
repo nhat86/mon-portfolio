@@ -59,7 +59,13 @@ const ProjectDetail = async ({ params }: { params: Promise<{ slug: string }> }) 
               </div>
 
               <div className={styles.details}>
-                  <h2>Technologies utilisées</h2>
+              {project.longDescription && (
+                <div className={styles.longDescription}>
+                  <h2>À propos du projet</h2>
+                  <p>{project.longDescription}</p>
+                </div>
+              )}
+              <h2>Technologies utilisées</h2>
                   <div className={styles.technologies}>
                       {project.technologies.map((tech: string, index: number) => {
                         const techData = Technologies.Technologies.find(t => t.name === tech);

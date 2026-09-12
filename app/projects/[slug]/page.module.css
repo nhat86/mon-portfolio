@@ -64,6 +64,18 @@
   color: #667eea;
 }
 
+.longDescription {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.longDescription p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #4b5563;
+}
+
 .technologies {
   display: flex;
   flex-wrap: wrap;
