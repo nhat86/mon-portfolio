@@ -12,7 +12,7 @@
 
       "description": "Projet de Computer Vision en Python pour la segmentation automatique de vêtements à partir d'images.",
 
-      "image": "fashion-trend-intelligence.png",
+      "image": "fashion_trend.jpg",
 
       "technologies": [
 
@@ -96,7 +96,7 @@
 
       "technologies": ["Python", "Streamlit", "Pandas", "scikit-learn", "NumPy", "Matplotlib"],
 
-      "link": "hr-analytics.svg",
+      "link": "/projects/hr-analytics",
 
       "link_github": "https://github.com/nhat86/openclassroom_projet10_machine_learning",
 
