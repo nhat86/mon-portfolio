@@ -11,6 +11,14 @@ const nextConfig = {
        protocol: 'https',
        hostname: 'oc-static.imgix.net',
      },
+     {
+       protocol: 'https',
+       hostname: 'cdn.jsdelivr.net',
+     },
+     {
+       protocol: 'https',
+       hostname: 'unpkg.com',
+     },
    ],
  },
 };
