@@ -3,6 +3,48 @@
   "baseImageUrl": "/images/projets",
 
   "Projects": [
+    {
+
+      "slug": "plateforme-photographe",
+
+      "title": "Plateforme Photographe",
+
+      "description": "Plateforme web complète en React et Next.js pour un photographe, avec pages conformes aux maquettes et respect des bonnes pratiques d'accessibilité.",
+
+      "image": "react_javascript.jpg",
+
+      "technologies": ["React", "Next.js", "JavaScript", "HTML", "CSS"],
+
+      "link": "/projects/plateforme-photographe",
+
+      "link_github": "https://github.com/nhat86/openclassroom-projet9_react-platforme_photographe_deploy",
+
+      "link_demo": "https://openclassroom-projet9react-platformephotographe-ksx8i1ym8.vercel.app/",
+
+      "longDescription": "J'ai créé une plateforme web complète en React et Next.js en respectant les maquettes et les bonnes pratiques d'accessibilité. Cela m'a permis de valider ma progression sur HTML, CSS, JavaScript et React pour produire des fonctionnalités accessibles, évolutives et maintenables."
+
+    },
+    {
+
+      "slug": "app-phapshopping",
+
+      "title": "App E-commerce PhapShopping",
+
+      "description": "Service d'achat en France pour les clients vietnamiens — commande, paiement et livraison de produits français.",
+
+      "image": "phapshopping.jpg",
+
+      "technologies": ["TypeScript", "Next.js", "React", "Tailwind CSS", "Supabase", "OpenAI", "Resend"],
+
+      "link": "/projects/app-phapshopping",
+
+      "link_github": "https://github.com/nhat86/phapshopping4",
+
+      "link_demo": "https://phapshopping.vercel.app/",
+
+      "longDescription": "PhapShopping est une application e-commerce full-stack facilitant l'achat de produits français pour des clients vietnamiens. Le projet inclut gestion des commandes, paiement et suivi des livraisons."
+
+    },
 
     {
 
@@ -40,23 +82,23 @@
 
     {
 
-      "slug": "app-phapshopping",
+      "slug": "bottleneck-data-analysis",
 
-      "title": "App E-commerce PhapShopping",
+      "title": "Bottleneck - Data Analysis",
 
-      "description": "Service d'achat en France pour les clients vietnamiens — commande, paiement et livraison de produits français.",
+      "description": "Analyse et nettoyage du stock d'une boutique : exploration, jonctions de fichiers, analyses univariées et présentation.",
 
-      "image": "phapshopping.jpg",
+      "image": "data_analysis.jpg",
 
-      "technologies": ["Node.js", "TypeScript", "Python", "OpenAI"],
+      "technologies": ["Python", "Pandas", "Jupyter Notebook", "NumPy", "Matplotlib"],
 
-      "link": "/projects/app-phapshopping",
+      "link": "/projects/bottleneck-data-analysis",
 
-      "link_github": "https://github.com/nhat86/phapshopping4",
+      "link_github": "https://github.com/nhat86/bottleneck-data-analysis",
 
-      "link_demo": "https://phapshopping.vercel.app/",
+      "link_demo": "https://nhat86.github.io/bottleneck-data-analysis/",
 
-      "longDescription": "PhapShopping est une application e-commerce full-stack facilitant l'achat de produits français pour des clients vietnamiens. Le projet inclut gestion des commandes, paiement et suivi des livraisons."
+      "longDescription": "Ce projet m'a permis d'approfondir le traitement et le nettoyage de données du stock d'une boutique. J'ai utilisé des librairies Python via un notebook, réalisé des analyses exploratoires, effectué des jonctions de fichiers et des analyses univariées, puis présenté les résultats. Ces compétences sont fondamentales pour un Data Analyst, car la préparation des données constitue une part majeure du métier."
 
     },
 
@@ -80,29 +122,10 @@
 
       "longDescription": "Application de Machine Learning déployée avec Streamlit pour prédire le turnover des employés. Le projet inclut un pipeline de classification, une interface interactive et des outils d'explicabilité avec SHAP et permutation importance."
 
-    },
-
-    {
-
-      "slug": "bottleneck-data-analysis",
-
-      "title": "Bottleneck - Data Analysis",
-
-      "description": "Analyse et nettoyage du stock d'une boutique : exploration, jonctions de fichiers, analyses univariées et présentation.",
-
-      "image": "data_analysis.jpg",
-
-      "technologies": ["Python", "Pandas", "Jupyter Notebook", "NumPy", "Matplotlib"],
-
-      "link": "/projects/bottleneck-data-analysis",
-
-      "link_github": "https://github.com/nhat86/bottleneck-data-analysis",
-
-      "link_demo": "https://nhat86.github.io/bottleneck-data-analysis/",
-
-      "longDescription": "Ce projet m'a permis d'approfondir le traitement et le nettoyage de données du stock d'une boutique. J'ai utilisé des librairies Python via un notebook, réalisé des analyses exploratoires, effectué des jonctions de fichiers et des analyses univariées, puis présenté les résultats. Ces compétences sont fondamentales pour un Data Analyst, car la préparation des données constitue une part majeure du métier."
-
     }
+
+    
+    
 
   ]
 

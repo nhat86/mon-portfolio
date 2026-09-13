@@ -68,6 +68,18 @@
       {
         "name": "OpenAI",
         "icon": "openai.svg"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "tailwindcss.svg"
+      },
+      {
+        "name": "Supabase",
+        "icon": "supabase.svg"
+      },
+      {
+        "name": "Resend",
+        "icon": "resend.svg"
       }
     ]
   }
