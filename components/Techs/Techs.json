@@ -64,6 +64,10 @@
       {
         "name": "Hugging Face",
         "icon": "huggingface.svg"
+      },
+      {
+        "name": "OpenAI",
+        "icon": "openai.svg"
       }
     ]
   }

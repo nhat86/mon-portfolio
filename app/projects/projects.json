@@ -48,7 +48,7 @@
 
       "image": "phapshopping.jpg",
 
-      "technologies": [ "Node.js", "TypeScript"],
+      "technologies": ["Node.js", "TypeScript", "Python", "OpenAI"],
 
       "link": "/projects/app-phapshopping",
 
@@ -68,7 +68,7 @@
 
       "description": "Application de Machine Learning pour prédire le turnover des employés, avec un modèle de classification entraîné, interface Streamlit interactive et outils d'explicabilité (SHAP, permutation importance).",
 
-      "image": "hr-analytics.svg",
+      "image": "machine_learning.jpg",
 
       "technologies": ["Python", "Streamlit", "Pandas", "scikit-learn", "NumPy", "Matplotlib"],
 
