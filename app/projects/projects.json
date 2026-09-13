@@ -62,30 +62,6 @@
 
     {
 
-      "slug": "app-cadeau-du-vietnam",
-
-      "title": "App E-commerce Cadeau du Vietnam",
-
-      "description": "Boutique en ligne de produits vietnamiens livrés en France — alimentation, cosmétiques et articles traditionnels.",
-
-      "image": "blog.png",
-
-      "technologies": ["Node.js", "Php", "TypeScript"],
-
-      "features": [],
-
-      "link": "/projects/app-cadeau-du-vietnam",
-
-      "link_github": "https://github.com/nhat86/cadeauduvietnam",
-
-      "link_demo": "",
-
-      "longDescription": "Boutique en ligne dédiée aux produits vietnamiens en France. J'ai travaillé sur l'intégration du catalogue, du panier et du processus de commande."
-
-    },
-
-    {
-
       "slug": "hr-analytics",
 
       "title": "HR Analytics",
