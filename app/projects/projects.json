@@ -80,6 +80,28 @@
 
       "longDescription": "Application de Machine Learning déployée avec Streamlit pour prédire le turnover des employés. Le projet inclut un pipeline de classification, une interface interactive et des outils d'explicabilité avec SHAP et permutation importance."
 
+    },
+
+    {
+
+      "slug": "bottleneck-data-analysis",
+
+      "title": "Bottleneck - Data Analysis",
+
+      "description": "Analyse et nettoyage du stock d'une boutique : exploration, jonctions de fichiers, analyses univariées et présentation.",
+
+      "image": "data_analysis.jpg",
+
+      "technologies": ["Python", "Pandas", "Jupyter Notebook", "NumPy", "Matplotlib"],
+
+      "link": "/projects/bottleneck-data-analysis",
+
+      "link_github": "https://github.com/nhat86/bottleneck-data-analysis",
+
+      "link_demo": "https://nhat86.github.io/bottleneck-data-analysis/",
+
+      "longDescription": "Ce projet m'a permis d'approfondir le traitement et le nettoyage de données du stock d'une boutique. J'ai utilisé des librairies Python via un notebook, réalisé des analyses exploratoires, effectué des jonctions de fichiers et des analyses univariées, puis présenté les résultats. Ces compétences sont fondamentales pour un Data Analyst, car la préparation des données constitue une part majeure du métier."
+
     }
 
   ]
