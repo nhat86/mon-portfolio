@@ -12,11 +12,10 @@ export default function Home() {
             Bonjour, je suis <br /><span className={styles.highlight}>Nhat VO</span>
           </h1>
           <p className={styles.heroSubtitle}>
-            Développeur Web Full-Stack
+            Développeuse Full Stack | Data & IA
           </p>
           <p className={styles.heroDescription}>
-            Je développe des applications <span className={styles.highlight}>web modernes et élégantes</span>, centrées sur <span className={styles.highlight}>l’expérience utilisateur</span>.
-            J’utilise <span className={styles.highlight}>l’intelligence artificielle</span> pour rendre les interfaces plus <span className={styles.highlight}>intelligentes</span> et <span className={styles.highlight}>interactives</span>.
+            Développeuse web orientée Data & IA, je conçois des applications modernes en combinant <span className={styles.highlight}>développement logiciel, analyse de données, machine learning et intelligence artificielle</span>. Mon objectif : transformer des données et des besoins métier en solutions concrètes, intelligentes et accessibles.
           </p>
           <div className={styles.heroButtons}>
             <Link href="/projects" className={`${styles.btn} ${styles.btnPrimary}`}>
