@@ -89,7 +89,7 @@
 
       "image": "dashboard_sport.jpg",
 
-      "technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Recharts", "Mistral AI", "Prompt Engineering"],
+      "technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Recharts", "Mistral AI"],
 
       "link": "/projects/dashboard-sport",
 
@@ -143,9 +143,29 @@
 
       "longDescription": "Application de Machine Learning déployée avec Streamlit pour prédire le turnover des employés. Le projet inclut un pipeline de classification, une interface interactive et des outils d'explicabilité avec SHAP et permutation importance."
 
-    }
+    },
 
-    
+    {
+
+      "slug": "gestion-projet-ia",
+
+      "title": "Gestion de projet avec IA",
+
+      "description": "Outil SaaS de gestion de projet avec IA pour optimiser les flux de travail des freelances.",
+
+      "image": "abricot.jpg",
+
+      "technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS", "OpenAI", "RAG - Langchain", "Mistral AI"],
+
+      "link": "/projects/gestion-projet-ia",
+
+      "link_github": "https://github.com/nhat86/openclassroom_projet11_version2",
+
+      "link_demo": "https://openclassroom-projet11-version2-omega.vercel.app",
+
+      "longDescription": "En tant que développeur front-end chez Abricot.co, j'ai développé l'interface de cette plateforme SaaS de gestion de projet innovante. J'ai également géré la partie IA de l'application, en développant les appels API vers le LLM directement depuis Next.js pour optimiser les flux de travail des freelances grâce à l'intelligence artificielle."
+
+    }
 
   ]
 

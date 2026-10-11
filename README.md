@@ -14,12 +14,13 @@ Ce site présente mon parcours, mes compétences et mes réalisations autour du 
 
 - Développement front-end : React, TypeScript, Tailwind CSS
 - Développement back-end : Node.js, Python, FastAPI, REST
-- Data & IA : Python, Pandas, scikit-learn, Hugging Face, Mistral AI, OpenAI
+- Data & IA : Python, Pandas, scikit-learn, Hugging Face, Mistral AI, OpenAI, LLM, RAG
 - Bases de données : PostgreSQL, MongoDB, Redis
 - DevOps : Vercel, Docker, CI/CD
 
 ### Projets phares
 
+- Abricot.co
 - Plateforme Photographe
 - App E-commerce PhapShopping
 - Fashion Trend Intelligence

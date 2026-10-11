@@ -1,5 +1,5 @@
 {
-    "baseUrl": "https://cdn.jsdelivr.net/npm/simple-icons@v13/icons",
+    "baseUrl": "https://cdn.jsdelivr.net/npm/simple-icons@latest/icons",
     "Technologies": [
       {
         "name": "HTML",
@@ -80,6 +80,14 @@
       {
         "name": "Resend",
         "icon": "resend.svg"
+      },
+      {
+        "name": "RAG - Langchain",
+        "icon": "langchain.svg"
+      },
+      {
+        "name": "Mistral AI",
+        "icon": "mistralai.svg"
       }
     ]
   }
